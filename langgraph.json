@@ -1,0 +1,10 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "create_analysts": "./src/langgraph_research_agent/creating_analysts.py:graph",
+      "question_answer_graph": "./src/langgraph_research_agent/answering_questions.py:answering_question",
+      "agent_graph": "./src/langgraph_research_agent/agent.py:agent_graph"
+    },
+    "env": ".env"
+  }
+

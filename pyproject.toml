@@ -1,0 +1,25 @@
+[project]
+name = "langgraph-research-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Karim317", email = "karim.nasser317@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.8.0",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.22",
+]
+
+[project.scripts]
+langgraph-research-agent = "langgraph_research_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
